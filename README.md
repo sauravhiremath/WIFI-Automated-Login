@@ -2,7 +2,7 @@
 ## Currently for VIT, Vellore WIFIs only
 
 ## How to add your Username and Password
-<p>Replace the "username" and "password" in the login.py module with your own Username and Password.</p>
+<p>Replace the "username" and "password" in the <b>login.py</b> module with your own Username and Password.</p>
 
 ## Examples
 <font color="#487799"><i><p>Original</p></i></font>
@@ -22,6 +22,9 @@ driver.find_element_by_name("password").send_keys("abcd1234")
 ## How to Use
 <p><ul>
   <li>Download the repo to your local system
+    <a href="https://ibb.co/bUjj6L"><img src="https://preview.ibb.co/d92FD0/ddddddddddddd.jpg" alt="ddddddddddddd" border="0"></a>
+  <li>Extract the zip file in some directory.
+  <li>Change username and password in login.py (See the reference above)
   <li>Connect to any VIT Wifi.
   <li>Double click the batch file (.bat extension).
   <li>Thats all, sit back and relax :p
