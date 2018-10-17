@@ -25,16 +25,12 @@ driver.find_element_by_name("password").send_keys("abcd1234")
   <li>Connect to any VIT Wifi.
   <li>Double click the batch file (.bat extension).
   <li>Thats all, sit back and relax :p
-</p>
-<br>
+  </ul>
 For automated triggering of Wifi Login, use TaskScheduler.exe (For Windows)
-
-## Additional Notes
+</p>
 
 ## Debugging
-
 <p>There is another module for checking if Net is Working or not. </p>
 
 ## Contribution
-
 <p> Feel free to contribute. :D </p>
