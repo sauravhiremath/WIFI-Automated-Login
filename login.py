@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print('Checking if Net Connection is working.... \n')
 
     if check_ping() ==False:
-        driver = webdriver.Chrome('C:/Users/Saurav/Desktop/LoginModule/chromedriver.exe')
+        driver = webdriver.Chrome('C:/[repodirectory]/chromedriver.exe')
         site_login()
         if check_ping():
             print('Connection Initiated....')
