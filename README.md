@@ -1,6 +1,5 @@
 # WIFI Automated Login
 ## Currently for VIT, Vellore WIFIs only
-## Requires selenium package for Python
 
 ## How to add your Username and Password
 <p>Replace the "username" and "password" in the <b>login.py</b> module with your own Username and Password.</p>
