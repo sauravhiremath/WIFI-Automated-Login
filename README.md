@@ -1,8 +1,6 @@
 
 # WIFI Automated Login
 
- - Requires Python and Selenium for Python 
-
 ## Currently for VIT, Vellore WIFIs only
 
 ## How to Use
@@ -33,8 +31,10 @@
 26 driver = webdriver.Chrome('C:/Users/Foo/Downloads/WiFi-Automated-Login/chromedriver.exe')
         
 ```
-## Downloads
-Python 3.7: https://www.python.org/downloads/
+## Requirements
+--Python 3.7: https://www.python.org/downloads/ <br>
+--Python<br>
+--Selenium Driver for Chrome<br>
 
 ## How to Use
 <p><ul>
@@ -42,6 +42,7 @@ Python 3.7: https://www.python.org/downloads/
     <a href="https://ibb.co/bUjj6L"><img src="https://preview.ibb.co/d92FD0/ddddddddddddd.jpg" alt="ddddddddddddd" border="0"></a>
   <li>Extract the zip file in some directory.
   <li>Change username, password and chromedriver path in login.py (See the reference above)
+  <li>Install the Requirements.txt file using python.
   <li>Connect to any VIT Wifi.
   <li>Double click the batch file (.bat extension).
   <li>Thats all, sit back and relax :p
@@ -59,7 +60,7 @@ For automated triggering of Wifi Login, use TaskScheduler.exe (For Windows)
      python -m pip install selenium
      ```
      <p>If this gives you an error, proceed to Step 2.</p>
- 2. <p>Check if pip is added to PATH environment variables with</p>
+ 2. <p>Check if <b>pip</b> is added to PATH environment variables with</p>
      
      ```sh
      echo %PATH%
